@@ -13,4 +13,4 @@
 ## Answer for Onboarding Question
 The onboarding process looks decent. But lack of information about apps feature at first time opening the apps is not good for new user. And notice for user to login or register need to be located at top so new user can notice it.
 
-For data in the apps, I save it in sharedpreferrence and I hash the password.
+For data in the apps, I save it in sharedpreferrence and I hash the password. I'm sorry that I didn't finish replicate all the view because there was an important work and I need to finish it first. 
