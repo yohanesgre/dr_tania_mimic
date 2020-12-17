@@ -21,12 +21,12 @@ class MainActivity : AppCompatActivity() {
     @Inject
     lateinit var navigationDispatcher: NavigationDispatcher
 
-
     private lateinit var binding: ActivityMainBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
+        window.setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_ADJUST_PAN)
         setContentView(binding.root)
         navigationDispatcher.navigationCommands.observe(this) { command ->
             val nav = Navigation.findNavController(this, R.id.nav_host_fragment)

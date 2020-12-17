@@ -11,7 +11,6 @@ import com.neurafarm.drtaniamimic.common.Constants
 import com.neurafarm.drtaniamimic.databinding.FragmentOnboardingBinding
 import com.neurafarm.drtaniamimic.feature.NavigationViewModel
 import com.neurafarm.drtaniamimic.utils.onClick
-import timber.log.Timber
 
 class OnBoardingFragment : BaseFragment(R.layout.fragment_onboarding) {
 
