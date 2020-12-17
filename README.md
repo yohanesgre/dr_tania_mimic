@@ -10,7 +10,7 @@
 * Gson
 * [Image Picker](https://github.com/Dhaval2404/ImagePicker)
 
-##Answer for Onboarding Question
+## Answer for Onboarding Question
 The onboarding process looks decent. But lack of information about apps feature at first time opening the apps is not good for new user. And notice for user to login or register need to be located at top so new user can notice it.
 
 For data in the apps, I save it in sharedpreferrence and I hash the password.
