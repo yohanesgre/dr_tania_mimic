@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="spacing_xsmall">2dp</dimen>
+    <dimen name="spacing_small">4dp</dimen>
+    <dimen name="spacing_medium">8dp</dimen>
+    <dimen name="spacing_large">16dp</dimen>
+    <dimen name="spacing_xlarge">24dp</dimen>
+    <dimen name="spacing_xxlarge">32dp</dimen>
+
+    <dimen name="letter_xsmall">10sp</dimen>
+    <dimen name="letter_small">12sp</dimen>
+    <dimen name="letter_medium">14sp</dimen>
+    <dimen name="letter_large">16sp</dimen>
+    <dimen name="letter_xlarge">20sp</dimen>
+    <dimen name="letter_xxlarge">24sp</dimen>
+
+    <dimen name="button_height_normal">60dp</dimen>
+    <dimen name="inputField_height_normal">50dp</dimen>
+    <dimen name="textView_padding_horizontal_inputField">10dp</dimen>
+</resources>

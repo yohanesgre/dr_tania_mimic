@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="onboarding_list_image">
+        <item>@drawable/ic_dr_tania</item>
+        <item>@drawable/img_identification</item>
+        <item>@drawable/img_social</item>
+        <item>@drawable/img_monitoring</item>
+    </string-array>
+    <string-array name="onboarding_list_heading">
+        <item>@string/onboarding_heading_1</item>
+        <item>@string/onboarding_heading_2</item>
+        <item>@string/onboarding_heading_3</item>
+        <item>@string/onboarding_heading_4</item>
+    </string-array>
+    <string-array name="onboarding_list_body">
+        <item>@string/onboarding_body_1</item>
+        <item>@string/onboarding_body_2</item>
+        <item>@string/onboarding_body_3</item>
+        <item>@string/onboarding_body_4</item>
+    </string-array>
+
+    <string-array name="menu_home_top_string">
+        <item>@string/menu_home_top_string_1</item>
+        <item>@string/menu_home_top_string_2</item>
+        <item>@string/menu_home_top_string_3</item>
+        <item>@string/menu_home_top_string_4</item>
+        <item>@string/menu_home_top_string_5</item>
+        <item>@string/menu_home_top_string_6</item>
+    </string-array>
+
+    <string-array name="menu_home_top_icon">
+        <item>@drawable/ic_identification</item>
+        <item>@drawable/ic_tanya_ahli</item>
+        <item>@drawable/ic_budidaya</item>
+        <item>@drawable/ic_jualan</item>
+        <item>@drawable/ic_calculator</item>
+        <item>@drawable/ic_radar</item>
+    </string-array>
+</resources>

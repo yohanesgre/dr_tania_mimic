@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/splashFragment">
+
+    <fragment
+        android:id="@+id/onBoardingFragment"
+        android:name="com.neurafarm.drtaniamimic.feature.onboarding.OnBoardingFragment"
+        android:label="OnBoardingFragment"
+        tools:layout="@layout/fragment_onboarding">
+        <action
+            android:id="@+id/onBoardingFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/mainFragment"
+        android:name="com.neurafarm.drtaniamimic.feature.MainFragment"
+        android:label="MainFragment"
+        tools:layout="@layout/fragment_main">
+        <action
+            android:id="@+id/mainFragment_to_registerGraph"
+            app:destination="@id/register_graph" />
+        <action
+            android:id="@+id/mainFragment_to_loginFragment"
+            app:destination="@id/loginFragment" />
+        <action
+            android:id="@+id/mainFragment_to_splashFragment"
+            app:destination="@id/splashFragment"
+            app:popUpToInclusive="true"/>
+    </fragment>
+
+    <navigation
+        android:id="@+id/register_graph"
+        android:label="Register Graph"
+        app:startDestination="@id/registerFragment">
+        <fragment
+            android:id="@+id/registerFragment"
+            android:name="com.neurafarm.drtaniamimic.feature.register.RegisterFragment"
+            android:label="RegisterFragment"
+            tools:layout="@layout/fragment_register">
+            <action
+                android:id="@+id/registerFragment_to_otpFragment"
+                app:destination="@id/otpFragment" />
+        </fragment>
+        <fragment
+            android:id="@+id/otpFragment"
+            android:name="com.neurafarm.drtaniamimic.feature.register.OTPFragment"
+            android:label="OTPFragment"
+            tools:layout="@layout/fragment_register_otp">
+            <action
+                android:id="@+id/otpFragment_to_addInformationFragment"
+                app:destination="@id/addInformationFragment" />
+        </fragment>
+        <fragment
+            android:id="@+id/addInformationFragment"
+            android:name="com.neurafarm.drtaniamimic.feature.register.AddInformationFragment"
+            android:label="AddInformationFragment"
+            tools:layout="@layout/fragment_register_add_information" />
+        <action
+            android:id="@+id/registerGraph_to_mainFragment"
+            app:destination="@id/mainFragment"
+            app:popUpToInclusive="true"/>
+    </navigation>
+    <fragment
+        android:id="@+id/splashFragment"
+        android:name="com.neurafarm.drtaniamimic.feature.splash.SplashFragment"
+        android:label="SplashFragment"
+        tools:layout="@layout/fragment_splash">
+        <action
+            android:id="@+id/splashFragment_to_onBoardingFragment"
+            app:destination="@id/onBoardingFragment" />
+        <action
+            android:id="@+id/splashFragment_to_mainFragment"
+            app:destination="@id/mainFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/loginFragment"
+        android:name="com.neurafarm.drtaniamimic.feature.login.LoginFragment"
+        android:label="LoginFragment"
+        tools:layout="@layout/fragment_login">
+        <action
+            android:id="@+id/loginFragment_to_register_graph"
+            app:destination="@id/register_graph" />
+    </fragment>
+</navigation>

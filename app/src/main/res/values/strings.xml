@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Dokter Tania Mimic</string>
+    <string name="lorem_ipsum_255">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent at magna ut justo facilisis ultricies. Quisque tristique magna non iaculis facilisis. Nulla aliquet mollis tellus. Integer sit amet risus congue, tincidunt arcu at, congue leo. Nullam eget.</string>
+
+    <string name="error_empty">cannot be empty"</string>
+
+    <string name="onboarding_heading_1">Selamat Datang di Aplikasi Dokter Tania</string>
+    <string name="onboarding_heading_2">Identifikasi</string>
+    <string name="onboarding_heading_3">Komunitas dan Tanya Ahli</string>
+    <string name="onboarding_heading_4">Smart Tani</string>
+
+    <string name="onboarding_body_1">Dokter Tania adalah aplikasi smart farming Indonesia yang menawarkan solusi untuk berbagai masalah tanaman, baik untuk pertanian skala industri hingga kebun rumah anda. Dengan bantuan para ahli pertanian dan teknologi kecerdasan buatan kami, Dokter Tania mampu menyediakan berbagai solusi bagi para petani dan pegiat agrikultur di Indonesia untuk +80 jenis tanaman dan +1000 penyakit tanaman.</string>
+    <string name="onboarding_body_2">Dengan teknologi kecerdasan buatan terbaik, Fitur Identifikasi Dokter Tania dapat mendiagnosa penyakit tanaman Anda dan memberi langkah pengobatan/penangangan akurat dan rinci dalam hitungan detik, hanya dengan menggunakan foto tanaman Anda.</string>
+    <string name="onboarding_body_3">Fitur Komunitas dan Tanya Ahli mempermudah Anda untuk berinteraksi dengan komunitas dan juga para ahli tanaman Dokter Tania.</string>
+    <string name="onboarding_body_4">Fitur Smart Tani memudahkan Anda untuk mengetahui sebaran wabah tanaman, menentukan metode pemupukan yang paling sesuai, mengetahui prakiraan cuaca, dan melihat informasi ensiklopedia tanaman dan penyakit tanaman.</string>
+
+    <string name="notice_member">Silakan login atau register untuk menikmati layanan penuh aplikasi Dr. Tania</string>
+
+    <string name="menu_home_top_string_1">Identifikasi</string>
+    <string name="menu_home_top_string_2">Tanya Ahli</string>
+    <string name="menu_home_top_string_3">Budidaya</string>
+    <string name="menu_home_top_string_4">Jual Hasil Lahan</string>
+    <string name="menu_home_top_string_5">Kalkulator Pupuk</string>
+    <string name="menu_home_top_string_6">Radar Penyakit</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="register_headline">Please fill in a few details below</string>
+    <string name="register_phone_number">Insert new Phone Number</string>
+    <string name="register_otp_body">We have sent you an access code Via SMS for phone number verification</string>
+</resources>
